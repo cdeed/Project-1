@@ -114,6 +114,15 @@ h1 {
   content: ", ";
   font-style: normal;
 }
+/* ADDED BY DEREK GERVAIS */
+.book {
+  font-style: italic;
+}
+.book:before {
+  content: " ";
+  font-style: normal;
+}
+/**************************/
 
 @media (min-width: 768px) {
   body {
